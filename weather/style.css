@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background: url("bg.jpg") no-repeat center center/cover;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: url("bg2.jpg") no-repeat center center/cover;
+     
+     
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Pangolin', cursive;
+    font-size: 3rem;
+    
+}
+
+input[type="text"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Acme', sans-serif;
+    border: 2px solid black;
+    border-radius: 35px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 35px;
+    cursor: pointer;
+    font-family: 'Acme', sans-serif;
+    display: block;
+    width: 105px;
+    margin: 14px auto;
+}
+
+button:hover {
+    background-color: #00b312;
+}
+
+#weatherInfo {
+    display: none;
+}
+
+#cityName {
+    font-size: 26px;
+    font-family: 'Acme', sans-serif;
+font-weight: bolder;
+}
+
+#temperature {
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+}
+
+#weatherDescription {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+}
